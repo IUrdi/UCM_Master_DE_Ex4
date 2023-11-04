@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geom2D"
+version = "0.0.1"
+requires-python = ">=3.11"
+authors = [
+	{name = 'Ibon Urdiain', email = 'ibonurdi@ucm.es'}
+]
+
+[tool.setuptools.packages.find]
+exclude = ["Tests*"]
